@@ -1,0 +1,169 @@
+body
+{
+
+}
+
+/*header first page */
+.container{
+	width: 1000px;
+	margin: auto;
+}
+
+
+.firstpage{
+background-image: url("homegym.jpg");
+	
+	height: 500px;
+	color: white;
+	margin-bottom: 10px;
+}
+
+
+.navbar{
+	background-color: black; 
+	margin: 0px;
+	padding: 0px;
+}
+
+.navbar ul{
+	list-style: none;
+	padding: 0;
+	margin: 0;
+	overflow: hidden;
+	text-decoration: none;
+
+}
+
+.navbar h2{float: left;
+padding: 6px;
+margin: 0;
+
+ display: inline-block;
+	}
+
+span{
+	color: #f45b18;
+}
+.navbar ul li{
+	float: right;
+	padding: 10px;
+	text-align: center;
+	
+}
+
+.navbar ul li a{
+   color: white;
+   text-decoration: none;
+}
+
+a:hover{
+	 background-color: #83909d;
+}
+
+.paragragh .container{
+	text-align: center;
+	padding-top: 160px ;
+
+}
+
+/*second page*/
+.secondpage{
+	background-color: #cbcbcb;
+}
+
+.secondpage .container{
+
+	display: grid;
+	grid-template-columns: 33% 33% 33%;
+	grid-column-gap: 1em;
+	margin-bottom: 10px
+}
+
+.secondpage .container > div:nth-child(even){
+	padding: 10px;
+}
+
+.secondpage .container > div:nth-child(odd){
+	background-color: 	#ffc277;
+	padding: 10px;
+}
+
+/*3rd page*/
+.thirdpage{
+	height: 600px;
+	background-color: #cbcbcb;
+}
+
+.thirdpage img{
+float: left;
+padding-right: 70px;
+}
+
+.thirdpage .info{
+	padding-top: 40px;
+}
+.thirdpage .info h2 p{
+	float: right;
+	overflow: hidden;
+    padding-left: 10px
+}
+
+.thirdpage .info h2{
+	padding: 10px;
+}
+
+.thirdpage .info .forlines {
+	padding-top:50px;
+	display: grid;
+	grid-template-columns: 50% 50%;
+	grid-template-rows: 40% 40%;
+	grid-column-gap: 1em;
+	grid-row-gap: 3em;
+	overflow: hidden;
+}
+
+/*fourthpage*/
+.forthpage{
+	padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.forthpage .shar{
+  text-align: center;
+  overflow: hidden;
+  text-align: center;
+  padding-bottom: 10px;
+  }
+
+.forthpage .portfolio{
+	overflow: hidden;
+}
+
+.forthpage .portfolio >div{
+	
+	overflow: hidden;
+  float: left;
+  padding-right: 2em;
+  padding-bottom: 2em;
+
+}
+
+
+/*Lastpage*/
+
+.Lastpage{
+	height: 600px;
+	background-color: #2f3945;
+
+}
+
+.Lastpage form{
+color: white;
+
+}
+
+.Lastpage .padd{
+	padding: 50px;
+
+}
+
